@@ -195,6 +195,7 @@ hr {
   font-size: 20px;
 }
 @media screen and (max-width: 743px) {
+ 
     nav ul li:hover>ul{
        margin-left: 20px;
        border-left: 1px solid white;
@@ -209,8 +210,10 @@ hr {
     bottom: 0;
     right: 0;
     left: 0;
+    overflow: auto;
 
     background: var(--bgNav);
+    
   }
   .mostrar .sig a {
     font-size: 50px;
