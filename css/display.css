@@ -1,0 +1,58 @@
+.inline{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 90%;
+    max-width: 1000px;
+}
+.inline h1{
+     margin-bottom: 20px;
+}
+.inline p{
+    margin-bottom: 10px;
+}
+
+
+        span{
+            background-color: royalblue;
+            color: white;
+            display: none;
+        }
+.inline ul{
+    margin-top: 20px;
+    list-style: none;
+}
+.inline ul li {
+    display: inline;
+    text-align: center;
+    background-color: royalblue;
+    color: white;
+}
+.arriba{
+    margin-top: 10px;
+}
+p img{
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    object-fit:contain;
+}
+.bloque{
+    background-color:royalblue;
+    margin-bottom: 5px;
+    color: white;
+
+}
+#blockUl{
+    list-style: square;
+    margin-left: 40px;
+}
+
+
+        .inline-bloque{
+            background-color:royalblue;
+            margin-bottom: 5px;
+            color: white;
+            display: inline-block;
+        }
+

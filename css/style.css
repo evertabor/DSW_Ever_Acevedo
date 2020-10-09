@@ -1,0 +1,280 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Open Sans, sans-serif;
+}
+:root {
+  --colorNav: white;
+  --colorSiguenos: gray;
+  --colorSiguenosHover: rbg(244, 121, 32);
+  --bgNav: #004669;
+}
+
+.menu-destok {
+  background-color: var(--bgNav);
+  margin-bottom: 40px;
+}
+.nav {
+  background-color: var(--bgNav);
+  position: sticky;
+  top: 0px;
+}
+.siguenos {
+  width: 300px;
+  display: flex;
+}
+.superiorLogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.siguenos a {
+  margin-left: -10px;
+  font-size: 40px;
+  color: var(--colorSiguenos);
+}
+.siguenos a:hover {
+  color: #ff6600;
+}
+.mostrar {
+  display: none;
+}
+
+.menu-destok ul {
+  justify-content: space-evenly;
+  display: flex;
+  list-style: none;
+}
+.menu-destok ul li {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  display: block;
+  color: var(--colorNav);
+  font-size: 18px;
+  padding: 20px;
+}
+
+nav ul li a:hover {
+  background-color: rgb(240, 180, 41);
+}
+
+
+
+
+
+nav ul li>.addConcepto{
+    display: none;
+}
+nav ul li:hover>ul{
+    display: block;
+    
+    flex-direction: column;
+    display: flex; 
+    position: absolute;
+    background-color: var(--bgNav);
+
+}
+
+
+
+.menu {
+  display: none;
+}
+.general {
+  margin-bottom: 30px;
+}
+.general h2 {
+  color: var(--bgNav);
+  margin-bottom: 10px;
+}
+.objetivos {
+  width: 90%;
+  margin: 0 auto;
+}
+.objetivos h1 {
+  text-align: center;
+  font-size: 30px;
+  color: var(--bgNav);
+  margin-bottom: 20px;
+}
+.objetivos p {
+  margin-bottom: 20px;
+}
+
+.especificos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin-bottom: 30px;
+}
+.especificos div {
+  padding: 20px;
+  box-shadow: 0px 0px 5px;
+}
+
+.especificos div h3 {
+  margin-bottom: 20px;
+  color: var(--bgNav);
+  font-weight: bold;
+}
+
+.bg {
+  height: 200px;
+
+  background-attachment: fixed;
+  background-image: url("../img/universidad.jpg");
+  background-size: auto;
+}
+.bg div {
+  background-color: rgba(44, 40, 40, 0.4);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.bg h2 {
+  color: var(--colorNav);
+  font-size: 10vh;
+}
+
+.sig {
+  display: flex;
+  justify-content: center;
+}
+.contactos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 60px;
+  margin-top: 100px;
+  background: var(--bgNav);
+}
+.sig a {
+  margin-left: -10px;
+  font-size: 40px;
+  color: var(--colorSiguenos);
+}
+.sig a:hover {
+  color: #ff6600;
+}
+.contactos a {
+  color: white;
+}
+.contacta {
+  color: white;
+}
+.autor {
+  text-align: center;
+  color: white;
+}
+.autor h2 {
+  text-align: left;
+}
+.autor a {
+  margin-top: 10px;
+  display: inline-block;
+  margin-left: -85px;
+  padding: 10px;
+  background: rgb(240, 180, 41);
+}
+hr {
+    border: 0;
+    height: 2px;
+    margin-top: 10px;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+  }
+.copy {
+  margin-top: 20px;
+  text-align: center;
+  color: var(--bgNav);
+  font-size: 20px;
+}
+@media screen and (max-width: 743px) {
+    nav ul li:hover>ul{
+       margin-left: 20px;
+       border-left: 1px solid white;
+        position: relative;
+       
+    }
+  .mostrar {
+  
+    position: fixed;
+    
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    background: var(--bgNav);
+  }
+  .mostrar .sig a {
+    font-size: 50px;
+  }
+  .mostrar h1 {
+    margin-left: 60px;
+    text-transform: uppercase;
+    color: rgb(240, 180, 41);
+  }
+
+  .mostrar nav ul {
+    list-style: none;
+    text-align: left;
+  }
+  .quitar {
+    text-align: right;
+  }
+
+  .objetivos h1 {
+    margin-top: 70px;
+  }
+  .menu-destok {
+    display: none;
+  }
+  .menu {
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  .menu a {
+    font-size: 30px;
+  }
+  .siguenos {
+    display: none;
+  }
+  footer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .autor a {
+    margin-left: 0px;
+  }
+  .autor h2 {
+    text-align: center;
+  }
+  .especificos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    margin-bottom: 30px;
+  }
+  .bg div h2 {
+    padding: 10px;
+    font-size: 30px;
+  }
+  .contactos {
+    display: block;
+    text-align: left;
+  }
+  .mostrar {
+    display: none;
+  }
+}
