@@ -3,6 +3,23 @@
   margin: 0;
   font-family: Open Sans, sans-serif;
 }
+.contenido {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  width: 100%;
+  align-content: center;
+  justify-content:center;
+
+}
+aside {
+  height: 500px;
+  overflow: auto;
+  width: 300px;
+  padding: 20px;
+  justify-self: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
 :root {
   --colorNav: white;
   --colorSiguenos: gray;
@@ -61,24 +78,17 @@ nav ul li a:hover {
   background-color: rgb(240, 180, 41);
 }
 
-
-
-
-
-nav ul li>.addConcepto{
-    display: none;
+nav ul li > .addConcepto {
+  display: none;
 }
-nav ul li:hover>ul{
-    display: block;
-    
-    flex-direction: column;
-    display: flex; 
-    position: absolute;
-    background-color: var(--bgNav);
+nav ul li:hover > ul {
+  display: block;
 
+  flex-direction: column;
+  display: flex;
+  position: absolute;
+  background-color: var(--bgNav);
 }
-
-
 
 .menu {
   display: none;
@@ -183,11 +193,16 @@ nav ul li:hover>ul{
   background: rgb(240, 180, 41);
 }
 hr {
-    border: 0;
-    height: 2px;
-    margin-top: 10px;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
-  }
+  border: 0;
+  height: 2px;
+  margin-top: 10px;
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0)
+  );
+}
 .copy {
   margin-top: 20px;
   text-align: center;
@@ -195,17 +210,14 @@ hr {
   font-size: 20px;
 }
 @media screen and (max-width: 743px) {
- 
-    nav ul li:hover>ul{
-       margin-left: 20px;
-       border-left: 1px solid white;
-        position: relative;
-       
-    }
-  .mostrar {
   
+  .contenido{
+    grid-template-columns: 1fr;
+  }
+  
+  .mostrar {
     position: fixed;
-    
+
     top: 0;
     bottom: 0;
     right: 0;
@@ -213,7 +225,6 @@ hr {
     overflow: auto;
 
     background: var(--bgNav);
-    
   }
   .mostrar .sig a {
     font-size: 50px;
@@ -255,7 +266,6 @@ hr {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    
   }
   .autor a {
     margin-left: 0px;
