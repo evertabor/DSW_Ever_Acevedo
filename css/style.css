@@ -20,6 +20,10 @@ aside {
   margin-bottom: 10px;
   border-bottom: 1px solid gray;
 }
+aside h3{
+  font-size: 30px;
+  text-align: center;
+}
 :root {
   --colorNav: white;
   --colorSiguenos: gray;
