@@ -12,7 +12,7 @@
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/display.css">
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script  src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <title>Display none CSS</title>
@@ -37,142 +37,150 @@
     </header>
     <div class="nav">
         <nav class="menu-destok">
-            <ul>
+            <ul class="ul">
                 <li> <a href="index.html"> <span><i class="fas fa-home"></i></span> Inicio</a> </li>
                 <li> <a href="#"><span><i class="fas fa-book-open"></i></span> Conceptos</a>
-                    <ul class="addConcepto" id="qui">
+                    <ul class="addConcepto">
                         <li>
                             <a href="Dblock.html">display:block</a>
-    
+
                         </li>
                         <li>
                             <a href="Dinline.html">display:inline</a>
-    
+
                         </li>
                         <li>
                             <a href="Dinlineblock.html">display:inline-block</a>
-    
+
                         </li>
                         <li>
                             <a href="Dnone.html">none</a>
-    
+
                         </li>
                     </ul>
-    
+
                 </li>
                 <li> <a href="#"><span><i class="fas fa-video"></i></span> Recursos</a>
-                    <ul class="addConcepto" id="qui">
+                    <ul class="addConcepto">
                         <li>
                             <a href="Video.html">Video Propiedad Diplay</a>
-    
+
                         </li>
-    
+
                     </ul>
-    
+
                 </li>
                 <li> <a href="#"><span><i class="fas fa-user-check"></i></span> Autoevaluación</a>
-                    <ul class="addConcepto" id="qui">
+                    <ul class="addConcepto">
                         <li>
                             <a href="#">Pagina 2</a>
-    
+
                         </li>
                         <li>
                             <a href="#">Pagina 1</a>
-    
+
                         </li>
-    
+
                     </ul>
                 </li>
                 <li> <a href="autor.html"><span><i class="fas fa-user-tie"></i></span> Autor</a> </li>
             </ul>
         </nav>
-    
+
         <div class="menu">
             <h3>OVI VIRTUAL</h3>
             <a onclick="mostrar()" class="hamburgueza" href="#"><i class="fa fa-bars"></i></a>
-    
+
             <div class="mostrar" id="mostrar">
                 <div class="quitar">
-    
+
                     <a onclick="ocultar()" href="#"><i class="fas fa-times"></i></a>
                 </div>
                 <hr>
-    
-                <ul style="margin-left: 30px;">
+
+                <ul class="ul" style="margin-left: 30px;">
                     <li> <a href="index.html" class="title dropdownButton"><span><i class="fas fa-home"></i></span>
                             Inicio</a> </li>
-    
-                    <div class="title dropdownButton">
-                        <p><span><i class="fas fa-book-open"></i></span> Conceptos <span class="flecha"><i
-                                    class="far fa-arrow-alt-circle-down"></i></span></p>
-                    </div>
-                    <div class="dropdownContent">
-                        <ul class="addConcepto" id="qui">
-                            <li>
-                                <a href="Dblock.html">display:block</a>
-    
-                            </li>
-                            <li>
-                                <a href="Dinline.html">display:inline</a>
-    
-                            </li>
-                            <li>
-                                <a href="Dinlineblock.html">display:inline-block</a>
-    
-                            </li>
-                            <li>
-                                <a href="Dnone.html">none</a>
-    
-                            </li>
-                        </ul>
-                    </div>
-    
-    
-                    <div class="title dropdownButton">
-                        <p><span><i class="fas fa-video"></i></span> Recursos <span class="flecha"><i
-                                    class="far fa-arrow-alt-circle-down"></i></span></p>
-                    </div>
-                    <div class="dropdownContent">
-                        <ul class="addConcepto" id="qui">
-                            <li>
-                                <a href="Video.html">Video Propiedad Diplay</a>
-    
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="title dropdownButton">
-                        <p><span><i class="fas fa-user-check"></i></span> Autoevaluación <span class="flecha"><i
-                                    class="far fa-arrow-alt-circle-down"></i></span></p>
-                    </div>
-                    <div class="dropdownContent">
-                        <ul class="addConcepto" id="qui">
-                            <li>
-                                <a href="#">Pagina 2</a>
-    
-                            </li>
-                            <li>
-                                <a href="#">Pagina 1</a>
-    
-                            </li>
-    
-                        </ul>
-                    </div>
-                    <a href="autor.html" class="title dropdownButton"><span><i class="fas fa-user-tie"></i></span> Autor</a>
+                    <li>
+                        <div class="title dropdownButton">
+                            <p><span><i class="fas fa-book-open"></i></span> Conceptos <span class="flecha"><i
+                                        class="far fa-arrow-alt-circle-down"></i></span></p>
+                        </div>
+                        <div class="dropdownContent">
+                            <ul class="addConcepto">
+                                <li>
+                                    <a href="Dblock.html">display:block</a>
+
+                                </li>
+                                <li>
+                                    <a href="Dinline.html">display:inline</a>
+
+                                </li>
+                                <li>
+                                    <a href="Dinlineblock.html">display:inline-block</a>
+
+                                </li>
+                                <li>
+                                    <a href="Dnone.html">none</a>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="title dropdownButton">
+                            <p><span><i class="fas fa-video"></i></span> Recursos <span class="flecha"><i
+                                        class="far fa-arrow-alt-circle-down"></i></span></p>
+                        </div>
+                        <div class="dropdownContent">
+                            <ul class="addConcepto">
+                                <li>
+                                    <a href="Video.html">Video Propiedad Diplay</a>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="title dropdownButton">
+                            <p><span><i class="fas fa-user-check"></i></span> Autoevaluación <span class="flecha"><i
+                                        class="far fa-arrow-alt-circle-down"></i></span></p>
+                        </div>
+                        <div class="dropdownContent">
+                            <ul class="addConcepto">
+                                <li>
+                                    <a href="#">Pagina 2</a>
+
+                                </li>
+                                <li>
+                                    <a href="#">Pagina 1</a>
+
+                                </li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="autor.html" class="title dropdownButton"><span><i class="fas fa-user-tie"></i></span>
+                            Autor</a>
+
+                    </li>
                 </ul>
                 <hr>
                 <h2 style="text-align: center;font-size: 30px; margin-top: 20px;">Siguenos</h2>
                 <div class="sig">
-    
+
                     <a href="https://www.facebook.com/UniversidadUNAD" target="_blank"><i
                             class="fab fa-facebook-square"></i></a>
-                    <a href="https://twitter.com/UniversidadUNAD" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://twitter.com/UniversidadUNAD" target="_blank"><i
+                            class="fab fa-twitter-square"></i></a>
                     <a href="https://www.youtube.com/c/universidadunadTvUnadVirtual" target="_blank"><i
                             class="fab fa-youtube-square"></i></a>
                     <a href="https://www.instagram.com/universidadunad/" target="_blank"><i
                             class="fab fa-instagram-square"></i></a>
                 </div>
             </div>
-    
+
         </div>
     </div>
 
@@ -213,48 +221,48 @@
             </p>
         </article>
     </section>
-
+    <footer>
+        <div class="contactos">
+    
+            <div>
+                <div>
+                    <h2 class="contacta">Siguenos a la universidad</h2>
+                </div>
+                <div class="sig">
+    
+                    <a href="https://www.facebook.com/UniversidadUNAD" target="_blank"><i
+                            class="fab fa-facebook-square"></i></a>
+                    <a href="https://twitter.com/UniversidadUNAD" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.youtube.com/c/universidadunadTvUnadVirtual" target="_blank"><i
+                            class="fab fa-youtube-square"></i></a>
+                    <a href="https://www.instagram.com/universidadunad/" target="_blank"><i
+                            class="fab fa-instagram-square"></i></a>
+                </div>
+            </div>
+    
+            <div class="autor">
+                <h2>Autor</h2>
+                <p> Ever Yesid Acevedo Taborda</p>
+                <a href="#">Contactame</a>
+            </div>
+        </div>
+    
+        <div class="copy">
+            <p>
+                Institución de Educación Superior sujeta a inspección y vigilancia por el Ministerio de Educación Nacional
+                <a href="#">SNIES 2102</a>
+            </p>
+            <p>
+                © Copyright UNAD 2020
+            </p>
+        </div>
+    
+    
+    </footer>
+    
+    <script src="../js/main.js"></script>
 
 </body>
-<footer>
-    <div class="contactos">
 
-        <div>
-            <div>
-                <h2 class="contacta">Siguenos a la universidad</h2>
-            </div>
-            <div class="sig">
-
-                <a href="https://www.facebook.com/UniversidadUNAD" target="_blank"><i
-                        class="fab fa-facebook-square"></i></a>
-                <a href="https://twitter.com/UniversidadUNAD" target="_blank"><i class="fab fa-twitter-square"></i></a>
-                <a href="https://www.youtube.com/c/universidadunadTvUnadVirtual" target="_blank"><i
-                        class="fab fa-youtube-square"></i></a>
-                <a href="https://www.instagram.com/universidadunad/" target="_blank"><i
-                        class="fab fa-instagram-square"></i></a>
-            </div>
-        </div>
-
-        <div class="autor">
-            <h2>Autor</h2>
-            <p> Ever Yesid Acevedo Taborda</p>
-            <a href="#">Contactame</a>
-        </div>
-    </div>
-
-    <div class="copy">
-        <p>
-            Institución de Educación Superior sujeta a inspección y vigilancia por el Ministerio de Educación Nacional
-            <a href="#">SNIES 2102</a>
-        </p>
-        <p>
-            © Copyright UNAD 2020
-        </p>
-    </div>
-
-
-</footer>
-
-<script src="../js/main.js"></script>
 
 </html>
