@@ -6,7 +6,7 @@
 h1, h2, h3,h4{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 } 
-ul{
+.ul,ul{
   list-style: none;
 }
 
@@ -73,12 +73,12 @@ aside h3{
   display: none;
 }
 
-.menu-destok ul {
+.menu-destok .ul {
   justify-content: space-evenly;
   display: flex;
   list-style: none;
 }
-.menu-destok ul li {
+.menu-destok .ul li {
   display: inline-block;
 }
 a {
@@ -89,16 +89,16 @@ a {
   padding: 20px;
 }
 
-nav ul li a:hover {
+nav .ul li a:hover {
   background-color: rgb(240, 180, 41);
 }
-nav ul li a:hover span{
+nav .ul li a:hover span{
   color: white;
 }
-nav ul li > .addConcepto {
+nav .ul li > .addConcepto {
   display: none;
 }
-nav ul li:hover > ul {
+nav .ul li:hover > ul {
   display: block;
 
   flex-direction: column;
