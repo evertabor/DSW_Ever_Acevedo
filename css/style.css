@@ -6,6 +6,9 @@
 h1, h2, h3,h4{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 } 
+ul{
+  list-style: none;
+}
 
 
 p, a{
@@ -89,7 +92,9 @@ a {
 nav ul li a:hover {
   background-color: rgb(240, 180, 41);
 }
-
+nav ul li a:hover span{
+  color: white;
+}
 nav ul li > .addConcepto {
   display: none;
 }
@@ -221,11 +226,9 @@ hr {
   color: var(--bgNav);
   font-size: 20px;
 }
+
 @media screen and (max-width: 743px) {
-  nav ul li:hover > ul {
-    border-left: 1px white solid;
-    margin-left: 20px ;
-  }
+  
   .contenido{
     grid-template-columns: 1fr;
   }
@@ -244,6 +247,7 @@ hr {
   .mostrar .sig a {
     font-size: 50px;
   }
+
   .mostrar h1 {
     margin-left: 60px;
     text-transform: uppercase;
@@ -305,4 +309,62 @@ hr {
   .mostrar {
     display: none;
   }
+}
+/* Menu desplegable */
+a>span,p>span{
+  color: #E7B200;
+}
+body{
+	font-family: Arial, Verdana;
+}
+.dropdownMenu{
+	width: 100%;
+	margin-bottom: 3px;
+}
+.title{
+	padding: 7px 10px;
+	
+	color: white;
+  margin-bottom: 0;
+  margin-top: 10px;
+  font-size: 30px;
+}
+.title:hover{
+  background-color: #E7B200;
+  color: white;
+}
+.title:hover span{
+  color: white;
+}
+
+.dropdownButton:hover{
+	cursor: pointer;
+}
+.dropdownButton > p .fa{
+	float: right;
+}
+.dropdownContent ul{
+	margin: 0;
+	padding: 0 10px;
+}
+.dropdownContent
+{
+	border: 1px solid #E7B200;
+}
+.dropdownContent{
+	padding: 15px 8px;
+	margin-top: -1px;
+}
+.dropdownContent ul li{
+	list-style: none;
+	padding: 5px 0;
+}
+.dropdownContent ul li a{
+	text-decoration: none;
+}
+.dropdownContent ul li a:hover{
+	background-color: #E7B200;
+}
+.flecha{
+  float: right;
 }
