@@ -233,13 +233,27 @@ hr {
   color: var(--bgNav);
   font-size: 20px;
 }
-
+.examen{
+  width: 80% ;
+  margin: 0px auto;
+}
+.cnt-examen{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 @media screen and (max-width: 743px) {
   
   .contenido{
     grid-template-columns: 1fr;
   }
-  
+  .cnt-examen{
+    margin-top: 50px;
+  }
+  .examen{
+    width: 95% ;
+   
+  }
   .mostrar {
     position: fixed;
 
