@@ -10,8 +10,8 @@
 .inline p {
   margin-bottom: 10px;
 }
-span {
-  background-color: royalblue;
+.eje {
+  background-color: #004669;
   color: white;
 
 }
@@ -22,7 +22,7 @@ span {
 .inline ul li {
   display: inline;
   text-align: center;
-  background-color: royalblue;
+  background-color: #004669;
   color: white;
 }
 .arriba {
@@ -36,7 +36,7 @@ p img {
   object-fit: contain;
 }
 .bloque {
-  background-color: royalblue;
+  background-color: #004669;
   margin-bottom: 5px;
   color: white;
 }
@@ -46,7 +46,7 @@ p img {
 }
 
 .inline-bloque {
-  background-color: royalblue;
+  background-color: #004669;
   margin-bottom: 5px;
   color: white;
   display: inline-block;
