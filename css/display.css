@@ -15,6 +15,9 @@
   color: white;
 
 }
+.ul{
+  width: 100%;
+}
 .inline ul {
   margin-top: 20px;
   list-style: none;

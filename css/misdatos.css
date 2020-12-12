@@ -1,29 +1,41 @@
-section{
+.misDatos {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px;
+  box-shadow: 1px 1px 4px;
+}
+.videosustentacion {
+  display: block;
+  margin-top: 20px;
+  width: 60%;
+  margin: 0 auto;
+}
+.padrevideo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section p {
+  text-align: left;
+  margin-bottom: 10px;
+}
+section h1 {
+  color: #004669;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+section img {
+  display: block;
+  height: 300px;
+  border-radius: 100%;
+  object-fit: cover;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 743px) {
+  .videosustentacion {
     width: 90%;
-    margin: 0 auto;
-    max-width: 500px;
-
-    text-align: center;
-    padding: 40px;
-    margin-top: 50px;
-    box-shadow: 1px 1px 4px ;
-}
-
-section p{
-    text-align: left;
-    margin-bottom: 10px;
-}
-section h1{
-    color: #004669;
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-section img{
-    
-    width: 50%;
-    height: 300px;
-    border-radius: 100%;
-    object-fit: cover;
-    margin: 0 auto;
-    margin-bottom: 40px;
+  }
 }
